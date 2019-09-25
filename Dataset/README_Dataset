@@ -1,0 +1,8 @@
+1. The data were prepared with five fields (Reactant_Br, Reactant_Alkyne, Product, Yield, Reaction_Subclass, and Reaction SMILES)
+
+2. Reaction_Subclass means the bromo-α-carbon hybird type at the reactant molecule and the reaction yield
+
+  (1) sp2 and yield = 0% (2N)
+  (2) sp2 and yield > 0% (2Y)
+  (3)sp3 and yield = 0% (3N) 
+  (4)sp3 and yield > 0% (3Y)

@@ -1,0 +1,38 @@
+All descriptors exist in the csv file (RFC_QM_des.csv) 
+
+List of molecular descriptors calculated by Gaussian 16:
+
+EE_Br	Sum of electronic and thermal free energies of a bromide
+Dipole_Br	Dipole moment of a bromide
+Entropy_Br	Entropy values of a bromide
+Charge_I	Partial charge on α-bromo-carbon by Natural Bond Orbital (NBO) analysis of a bromide
+Charge_II	Partial charge on bromine atom by Natural Bond Orbital (NBO) analysis of a bromide
+Volume_Br	Molecular Volume of a bromide
+Length_I	Bond length between bromine and α-bromo-carbon of a bromide
+HOMO_N3	Energy of the highest occupied molecular orbital for an azide
+LUMO_N3	Energy of the lowest unoccupied molecular orbital for an azide
+EE_N3	Sum of electronic and thermal free energies of an azide
+Dipole_N3	Dipole moment of an azide
+Entropy_N3	Entropy values of an azide
+Charge_Ⅲ	Partial charge on N3 by Natural Bond Orbital (NBO) analysis of an azide
+Charge_Ⅳ	Partial charge on N2 by Natural Bond Orbital (NBO) analysis of an azide
+Charge_Ⅴ	Partial charge on N1 by Natural Bond Orbital (NBO) analysis of an azide
+Volume_alkyne	Molecular Volume of an alkyne
+HOMO_alkyne	Energy of the highest occupied molecular orbital for an alkyne
+LUMO_alkyne	Energy of the lowest unoccupied molecular orbital for an alkyne
+EE_alkyne	Sum of electronic and thermal free energies for an alkyne
+Dipole_alkyne	Dipole moment of an alkyne
+Entropy_alkyne	Entropy values of an alkyne
+Charge_Ⅵ	Partial charge on C1 by Natural Bond Orbital (NBO) analysis of an alkyne
+Charge_Ⅶ	Partial charge on C2 by Natural Bond Orbital (NBO) analysis of an alkyne
+Length_Ⅱ	Bond length between atom C1 and atom C2 of an alkyne
+Volume_P	Molecular Volume of a product
+EE_P	Sum of electronic and thermal free energies for product
+Entropy_P	Entropy values of a product
+Charge_Ⅷ	Partial charge on atom N1 by Natural Bond Orbital (NBO) analysis of a product
+Charge_Ⅸ	Partial charge on atom N2 by Natural Bond Orbital (NBO) analysis of a product
+Charge_Ⅹ	Partial charge on N3 by Natural Bond Orbital (NBO) analysis of a product
+Length_Ⅲ	Bond length between N2 and N3 of a product
+Length_Ⅳ	Bond length between N1 and N2 of a product
+
+

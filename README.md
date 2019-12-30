@@ -11,19 +11,33 @@ This package requires:
 - Python 3.6.3
 - PyTorch 1.1.0
 - RDKit
-- jupyter notebook
 - Numpy 1.14.2 
 - Pandas 0.23.4 
 
 
 ## Usage
 
-The trained model are stored in RAC_classifier.pkl, Using the predict.py to predict. The predictions are saved in the results.csv under the folder---"Prediction_Result/". 
+(1) You can generate products by given a batch of reactants SMILES:
+```bash
+bash generate_products.sh
+```
 
-`>python predict.py *yourfilename*` </br>
-Examples: `>python predict.py test_example.csv` </br>
+(2) You should generate a vocabulary for training:
+```bash
+bash generate_voc.sh
+```
 
-Data file format: </br>
+(3) You can run a script for training:
+```bash
+bash train.sh
+```
+
+(4) You can run a script to predict external validation dataset using trained model(saved in pkl file):
+```bash
+bash predict.sh
+```
+
+Input Data file format: </br>
 &nbsp;&nbsp;&nbsp;&nbsp;Datafile should be CSV file; </br>
 &nbsp;&nbsp;&nbsp;&nbsp;The header must be "Reaction SMILES, Reaction Subclass(Can be filled with "2N"); </br>
 &nbsp;&nbsp;&nbsp;&nbsp;Reaction SMILES = < Reactant_Br> ’.’ < Reactant_Alkyne > ’>’ < Product>

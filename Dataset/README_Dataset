@@ -1,4 +1,4 @@
-1. The data were prepared with five fields (Reactant_Br, Reactant_Alkyne, Product, Yield, Reaction_Subclass, and Reaction SMILES)
+1. The all data were prepared with two fields ( Reaction SMILES and Reaction_Subclass)------Data_reaction.csv
 
 2. Reaction_Subclass means the bromo-α-carbon hybird type at the reactant molecule and the reaction yield
 
